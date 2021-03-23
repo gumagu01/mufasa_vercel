@@ -1,0 +1,28 @@
+/*:root{
+    --morant_letter_red: #ff3859;
+    --gold: #ffd700;
+    --beauty_blue: #00d4ff;
+    --short_transition: all linear 0.1s;
+    --silver: #c0c0c0;
+    --fontAwe: "Font Awesome 5 Free"; 
+    --ocean_blue: #33b3e4;
+    --icon_category_color: #ef345f;
+    --back_input: #f2f0f7;
+    --element_input: #c0bbcd;
+    --soft_purple_back: #f9f7fc;
+    --purple_text: rgb(41, 23, 77);
+    --shadow_glow_effect: 0 0 10px 2px;
+    --shadow-relief-effect: inset 5px 5px 5px rgba(0,0,0,0.2),
+                            inset -5px -5px 15px rgba(255,255,255,0.1),
+                            5px 5px 15px rgba(0,0,0,0.3),
+                            -5px -5px 15px rgba(255,255,255,0.1);
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* ROOT ====================================================================== */
+h1, h2, h3, h4, h5, h6, a,p,span,div, ul, li, strong, small, html, body, i, font{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*@import url("errorAndRquestLoading.css");
+@import url('header.css');*/

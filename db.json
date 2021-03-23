@@ -1,0 +1,75 @@
+{
+    "theme": {
+        "colors": {
+            "blueGradienteBg":"linear-gradient(82deg, rgba(12,213,254,1) 0%, rgba(1,173,208,1) 48%, rgba(11,146,180,1) 100%)",
+            "orangeMufasaGradient":"linear-gradient(120deg, rgba(227,102,20,1) 0%, rgba(239,151,96,1) 86%, rgba(220,139,86,1) 100%);",
+            "taxRectangleYellow": "#FFAA00",
+            "mufasaOrange": "#C95206",
+            "lightMufasaOrange": "#E49447",
+            "verySoftMufasaOrange": "#f3d8c8",
+            "darkMufasaOrange": "#a2450a",
+            "veryDarkMufasaOrange": "#7d3506",
+            "opaqueOrange": "#FFC58E",
+            "fullBlack": "#000000",
+            "fullWhite": "#ffffff",
+            "lightGrayBg": "#ECECEC",
+            "softPurpleBg": "rgb(249, 247, 252)",
+            "gold": "#ffd700",
+            "beauty_blue": "#00d4ff",
+            "silver": "#c0c0c0",
+            "ocean_blue": "#33b3e4",
+            "icon_category_color": "#ef345f",
+            "back_input": "#f2f0f7",
+            "element_input": "#c0bbcd",
+            "soft_purple_back": "#f9f7fc",
+            "purple_text": "rgb(41,23,77)",
+            "contrastText": "#FFFFFF",
+            "textGray": "#B4B4B4"
+        },
+        "shadows": {
+            "shadow_glow_effect": "0 0 10px 2px",
+            "shadow_relief_effect": "inset 5px 5px 5px rgba(0,0,0,0.2), inset -5px -5px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.3), -5px -5px 15px rgba(255,255,255,0.1)"
+        },
+        "transactions": {
+            "short_transition": "all linear 0.1s"
+        },
+        "textFonts": {
+            "fontAwe": "Font Awesome 5 Free"
+        },
+        "measuresPatterns":{
+            "header":{
+                "height":{
+                    "minWidth1024": "56px",
+                    "general": "56px"
+                }
+            },
+            "subNav":{
+                "height":{
+                    "general": "35px"
+                },
+                "background": "linear-gradient(90deg, rgba(201,82,6,1) 0%, rgba(239,151,96,1) 80%, rgba(220,139,86,1) 100%)"
+            },
+            "timeSelectBar":{
+                "height":{
+                    "general": "35px"
+                },
+                "border":{
+                    "bottom": "2px"
+                },
+                "background": "linear-gradient(120deg, rgba(255,197,142,1) 0%, rgba(231,173,119,1) 86%, rgba(250,174,102,1) 100%)"
+            },
+            "taxTimeBar":{
+                "elementWidth":{
+                    "general": "100px",
+                    "minWidth1024": "150px"
+                },
+                "buttonSideWidth": "60px" 
+            },
+            "loaderSpin": {
+                "dotOvertaking": {
+                    "dimension": "8px"
+                }
+            }
+        }
+    }
+}

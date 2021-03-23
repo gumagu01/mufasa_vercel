@@ -1,0 +1,161 @@
+/* HEADER ====================================================================== */
+header {
+    background-color: var(--morant_letter_red);
+    clear: both;
+    display: block;
+    letter-spacing: -1px;
+    padding: 0 5px;
+    text-align: right;
+    height: 75px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.12);     
+    width: 100%;
+    z-index: 60;
+    transform: translateZ(0);
+
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.1);  
+    background-color: #fff;
+}
+header .container {
+    display: flex;
+    height: 100%;
+}
+header .header-logo {
+    position: relative;
+    display: inline-block;
+    margin: 0 20px;
+    height: 100%;
+    padding: 10px 0;
+}
+header .header-logo .logo {
+    display: inline-block;
+    height: 100%;
+    border-radius: 6px;
+    background: linear-gradient(36deg, rgba(145,31,49,1) 0%, rgba(182,40,63,1) 35%, rgba(255,56,89,1) 100%);
+    transition: var(--short_transition);
+    transform: scale(1);
+}
+header .logo img {
+    height: 100%;
+    width: auto;
+}
+header div.search-header {
+    padding: 10px 0;
+    width: 50%;
+    margin: 0;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+header div.search-header .search-form {
+    display: flex;
+    height: 100%;
+    background: var(--back_input);
+    border-radius: 10px;
+    border: none;
+    max-height: 45px;
+    width: 100%;
+}
+header div.search-header .search-form .search-field {
+    margin: 5px 1px 5px 10px;
+    background: transparent;
+    border: none;
+    width: 90%;
+    border-right: 2px solid #d4cfe2;
+}
+header div.search-header .search-form .search-submit-button {
+    width: 10%;
+    margin: 5px;
+    border: none;
+    background: transparent;
+    transition: var(--short_transition);
+    border-radius: 6px;
+    position: relative;
+    transform: scaleX(1);
+}
+header div.search-header .search-form .search-submit-button::before {
+    content: "\f002";
+    font-family: var(--fontAwe);
+    font-weight: 900;
+    font-size: 20px;
+    color: var(--element_input);
+    position: relative;
+    transition: var(--short_transition);
+}
+header .search-help {
+    display: none;
+}
+header .header-nav {
+    width: 25%;
+    margin-left: 30px;
+}
+header .header-nav .nav-menu {
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+header .header-nav .nav-menu .nav-item-title a {
+    color: rgba(255,255,255,0.9);
+    color: rgba(0,0,0,0.65);
+    display: flex;
+    height: 100%;
+    padding: 0 15px;
+    align-items: center;
+    border-radius: 2px;
+    transition: var(--short_transition);
+    transform: scale(1);
+    min-height: 45px;
+    font-size: 18px;
+}
+
+/* EXCLUSIVE PAGE ==========*/
+.index header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+/* HOVER ==========*/
+header .header-logo .logo:hover {
+    transform: scale(1.05);
+}
+header div.search-header .search-form:hover{
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.1)
+}
+header div.search-header .search-form .search-submit-button:focus{
+    outline: none;
+}
+header div.search-header .search-form .search-submit-button:hover{
+    background-color: #ffe5e7;
+
+    background-color: var(--morant_letter_red);
+    box-shadow: 0 0 10px 2px var(--morant_letter_red);
+}
+header div.search-header .search-form .search-submit-button:hover:before{
+    color: #fff;
+    font-size: 24px;
+}
+header .header-nav .nav-menu .nav-item-title a:hover{
+    color: rgba(0,0,0,1);
+    background-color: var(--back_input);
+
+    color: #fff;
+    box-shadow: 0 0 10px 2px var(--morant_letter_red);
+    background-color: var(--morant_letter_red);
+
+    /*transform: scale(1.1);*/
+}
+
+/* NEED UPDATE =================*/
+header .nav-mobile{
+    display: none;
+}
